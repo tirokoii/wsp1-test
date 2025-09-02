@@ -1,0 +1,11 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3rem;
+    color: black;
+    background-image: radial-gradient(rgb(156, 156, 231), rgb(141, 45, 45), green);
+}
+
+.container {
+    max-width: 56rem;
+    margin-inline: auto;
+}

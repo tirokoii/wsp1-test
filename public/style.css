@@ -48,13 +48,18 @@ h1 {
 }
 
 nav {
-    z-index: 4;
-    padding: 0;
-    margin: 0;
+    margin-inline: auto;
+    margin-bottom: 2ch;
+    width: 40ch;
+    height: 10ch;
     background-color: #2196f3;
+    align-content: center;
 }
 
 ul {
+    display: flex;
+    justify-content:space-between;
+    padding-inline: 3ch;
     list-style: none;
 }
 

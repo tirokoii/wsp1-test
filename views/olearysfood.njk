@@ -1,0 +1,17 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+<main class="container">
+    <h1>{{ title }}</h1>
+    <ul>
+        {% for food in olearysfood %}  
+        <!-- Somehow not picking up olearysfood -->
+        <li>
+            <h3><a href="/olearysfood/{{ food.id }}">{{ food.name }}</a></h3>
+            <p>{{ food.rating }}/10</p>
+            <p>{{ food.rarity }}/5</p>
+        </li>
+        {% endfor %}
+    </ul>
+</main>
+{% endblock %}
